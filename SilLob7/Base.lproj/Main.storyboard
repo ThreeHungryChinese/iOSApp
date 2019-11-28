@@ -592,7 +592,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2M-of-wLT">
-                                <rect key="frame" x="115" y="478" width="184" height="44"/>
+                                <rect key="frame" x="115" y="449" width="184" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Check My Score"/>
@@ -686,8 +686,8 @@
         <image name="text.bubble" catalog="system" width="64" height="54"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uIH-p0-4qH"/>
+        <segue reference="vHU-d4-lVL"/>
         <segue reference="Txn-gl-wfH"/>
-        <segue reference="kzs-1S-1d3"/>
+        <segue reference="qKf-cm-Ets"/>
     </inferredMetricsTieBreakers>
 </document>
