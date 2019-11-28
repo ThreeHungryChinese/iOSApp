@@ -93,6 +93,87 @@
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="vVU-dW-irt">
+            <objects>
+                <viewController id="8hR-Nl-VEQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o19-hG-lFk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2co-rL-j76">
+                                <rect key="frame" x="110" y="553" width="184" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Check My Score"/>
+                                <connections>
+                                    <segue destination="Bzr-JT-B4O" kind="show" id="dJR-9T-bwa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="o9X-ae-ncA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ng1-8E-Jwt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S17-Mj-VYz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="106" y="832"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Szf-03-BCY">
+            <objects>
+                <viewController id="X7l-m4-ppu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F0X-h5-39j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpt-TO-wsg">
+                                <rect key="frame" x="112" y="517" width="184" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Check My Score"/>
+                                <connections>
+                                    <segue destination="Bzr-JT-B4O" kind="show" id="ARE-u4-OmO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="1QW-uu-xJl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aj3-1h-3Rn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OTk-mK-LjA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862" y="840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WWA-cC-Igo">
+            <objects>
+                <viewController id="uTW-2C-oPR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mnh-so-QTo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmW-9C-cB2">
+                                <rect key="frame" x="115" y="522" width="184" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Check My Score"/>
+                                <connections>
+                                    <segue destination="Bzr-JT-B4O" kind="show" id="uIH-p0-4qH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="YcC-jw-3fM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rvQ-HF-Yti"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dm9-ow-WWa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1622" y="840"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="PVo-YV-joG">
             <objects>
                 <viewController id="5UG-vg-e6U" customClass="ViewController" customModule="SilLob7" customModuleProvider="target" sceneMemberID="viewController">
@@ -328,6 +409,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Decision Tree Regression"/>
+                                <connections>
+                                    <segue destination="n6M-ev-cyv" kind="show" id="bsa-rY-GsC"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="flame" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2mn-mT-Egw">
                                 <rect key="frame" x="340" y="296" width="18" height="20"/>
@@ -342,6 +426,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Ridge Regression"/>
+                                <connections>
+                                    <segue destination="ZvV-Cp-NQ3" kind="show" id="XiD-0E-lWF"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="3.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dcS-J4-kfh">
                                 <rect key="frame" x="32" y="352" width="20" height="20"/>
@@ -364,18 +451,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Lasso Linear Model"/>
+                                <connections>
+                                    <segue destination="8hR-Nl-VEQ" kind="show" id="rfV-Kk-RS4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbX-kD-BmN">
                                 <rect key="frame" x="64" y="447" width="260" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Least Angle Lasso Regression"/>
+                                <connections>
+                                    <segue destination="X7l-m4-ppu" kind="show" id="aAL-Gj-ne4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6R5-s8-BnK">
                                 <rect key="frame" x="64" y="498" width="180" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Bayesian Regression"/>
+                                <connections>
+                                    <segue destination="uTW-2C-oPR" kind="show" id="oOn-Cf-Za8"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="flame" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2za-5d-HzG">
                                 <rect key="frame" x="340" y="350" width="18" height="20"/>
@@ -431,12 +527,80 @@
             <point key="canvasLocation" x="1589.8550724637682" y="129.91071428571428"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="LVe-WV-k3W">
+            <objects>
+                <viewController id="Bzr-JT-B4O" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OEe-u5-FoK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score Generated Is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc2-hn-pzB">
+                                <rect key="frame" x="74" y="156" width="266" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="74.94%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohS-pJ-KUj">
+                                <rect key="frame" x="153" y="343" width="109" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WV0-DV-Z8A">
+                                <rect key="frame" x="110" y="517" width="195" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Try Different Data"/>
+                                <connections>
+                                    <segue destination="5UG-vg-e6U" kind="show" id="qKf-cm-Ets"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbX-9N-0Be">
+                                <rect key="frame" x="81" y="629" width="252" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Try Different Algorithm"/>
+                                <connections>
+                                    <segue destination="UXA-ca-def" kind="show" id="Txn-gl-wfH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or You Can" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDg-44-1H7">
+                                <rect key="frame" x="153" y="580" width="108" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="WUe-Z6-XdI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xAP-hA-Uby"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RTU-ql-RSG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2565" y="125"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="TQp-2j-neO">
             <objects>
                 <viewController id="4wX-Ml-WnX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QiP-Z9-Q5C">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2M-of-wLT">
+                                <rect key="frame" x="115" y="478" width="184" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Check My Score"/>
+                                <connections>
+                                    <segue destination="Bzr-JT-B4O" kind="show" id="vHU-d4-lVL"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="bPQ-eL-WUO"/>
                     </view>
@@ -445,6 +609,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jal-nJ-gSp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138" y="-850"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UBN-Aa-61F">
+            <objects>
+                <viewController id="n6M-ev-cyv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KmZ-LO-HTf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bS5-Cd-E1d">
+                                <rect key="frame" x="115" y="466" width="184" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Check My Score"/>
+                                <connections>
+                                    <segue destination="Bzr-JT-B4O" kind="show" id="BPB-uk-osM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="hCL-we-4vr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OOA-WJ-oBK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Zk-mp-SX2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="906" y="-850"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="75X-a4-PPO">
+            <objects>
+                <viewController id="ZvV-Cp-NQ3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2H7-wJ-haT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AND-dq-RMx">
+                                <rect key="frame" x="130" y="476" width="184" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Check My Score"/>
+                                <connections>
+                                    <segue destination="Bzr-JT-B4O" kind="show" id="5fb-5K-4xm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ox3-2M-Cch"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oOP-dA-aHb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="to4-5H-GtS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1623" y="-850"/>
         </scene>
     </scenes>
     <resources>
@@ -468,6 +686,8 @@
         <image name="text.bubble" catalog="system" width="64" height="54"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MQH-ua-Anw"/>
+        <segue reference="uIH-p0-4qH"/>
+        <segue reference="Txn-gl-wfH"/>
+        <segue reference="kzs-1S-1d3"/>
     </inferredMetricsTieBreakers>
 </document>
