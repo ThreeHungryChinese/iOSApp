@@ -398,6 +398,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Linear Regression"/>
+                                <connections>
+                                    <segue destination="4wX-Ml-WnX" kind="show" id="vHQ-G6-FGN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose Your Algorithm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxf-EQ-JGN">
                                 <rect key="frame" x="115" y="106" width="177" height="21"/>
@@ -426,6 +429,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fn9-uE-T8m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1589.8550724637682" y="129.91071428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TQp-2j-neO">
+            <objects>
+                <viewController id="4wX-Ml-WnX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QiP-Z9-Q5C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="bPQ-eL-WUO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hOU-aX-ccj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jal-nJ-gSp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="-850"/>
         </scene>
     </scenes>
     <resources>
