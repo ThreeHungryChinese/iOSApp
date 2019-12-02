@@ -17,13 +17,37 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var checkIcon1: UIImageView!
     @IBOutlet weak var checkIcon2: UIImageView!
-    
-    @IBAction func clickDisplay(_ sender: Any) {
-        checkIcon1.isHidden = false
-        checkIcon2.isHidden = false
+  
+    @IBAction func nextPage(_ sender: Any) {
+        let delayInSeconds = 1.5
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + delayInSeconds) {
+            //self.performSegue(withIdentifier: "segueId", sender: sender)
+            self.checkIcon1.isHidden = false
+            self.checkIcon2.isHidden = false
+
+            // here code perfomed with delay
+
+        }
+        let delayInSeconds2 = 3.0
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + delayInSeconds2) {
+            self.performSegue(withIdentifier: "segueId", sender: sender)
+            //self.checkIcon1.isHidden = false
+            //self.checkIcon2.isHidden = false
+
+            // here code perfomed with delay
+
+        }
     }
     
+    @IBAction func clickDisplay(_ sender: Any) {
+        
+    }
+    
+    
+    
     @IBAction func LoginButton(_ sender: Any) {
+
+        
         let username = _username.text
         let password = _password.text
         if(username == "" || password == ""){

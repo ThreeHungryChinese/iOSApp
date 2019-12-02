@@ -74,7 +74,7 @@
                                 <connections>
                                     <action selector="LoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ujl-S8-xTt"/>
                                     <action selector="clickDisplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ywH-BV-KBy"/>
-                                    <segue destination="5UG-vg-e6U" kind="show" id="n3f-Wh-U3F"/>
+                                    <action selector="nextPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7P-Gi-Pf4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHS-o2-RO7">
@@ -154,11 +154,12 @@
                         <outlet property="_username" destination="2AS-pz-z7i" id="5Bw-3d-hNn"/>
                         <outlet property="checkIcon1" destination="R0u-vG-sQH" id="1l6-CX-6V7"/>
                         <outlet property="checkIcon2" destination="40S-vD-C5k" id="DFf-9z-WBf"/>
+                        <segue destination="5UG-vg-e6U" kind="show" identifier="segueId" id="oFl-gJ-NoI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+            <point key="canvasLocation" x="17" y="130"/>
         </scene>
         <!--Second Page View Controller-->
         <scene sceneID="PVo-YV-joG">
@@ -599,7 +600,7 @@
         <image name="text.bubble" catalog="system" width="64" height="54"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="n3f-Wh-U3F"/>
+        <segue reference="oFl-gJ-NoI"/>
         <segue reference="xSr-us-2u9"/>
     </inferredMetricsTieBreakers>
 </document>

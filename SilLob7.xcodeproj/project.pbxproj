@@ -103,7 +103,7 @@
 		8A5860D6239378180029FD7D /* tempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempViewController.swift; sourceTree = "<group>"; };
 		8A5860D8239379460029FD7D /* SilLob7 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SilLob7; sourceTree = "<group>"; };
 		8A5860DA239379540029FD7D /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "SilLob7/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
-		8A6041E5238F61AB001A660E /* SilLob7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilLob7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6041E5238F61AB001A660E /* 3HungryChinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3HungryChinese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6041E8238F61AB001A660E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A6041EA238F61AB001A660E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A6041EC238F61AB001A660E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -206,7 +206,7 @@
 		8A6041E6238F61AB001A660E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A6041E5238F61AB001A660E /* SilLob7.app */,
+				8A6041E5238F61AB001A660E /* 3HungryChinese.app */,
 				8A6041FB238F61AD001A660E /* SilLob7Tests.xctest */,
 				8A604206238F61AD001A660E /* SilLob7UITests.xctest */,
 			);
@@ -269,7 +269,7 @@
 			);
 			name = SilLob7;
 			productName = SilLob7;
-			productReference = 8A6041E5238F61AB001A660E /* SilLob7.app */;
+			productReference = 8A6041E5238F61AB001A660E /* 3HungryChinese.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8A6041FA238F61AD001A660E /* SilLob7Tests */ = {
@@ -736,7 +736,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pyprojects.SilLob7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 3HungryChinese;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -755,7 +755,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pyprojects.SilLob7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 3HungryChinese;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
