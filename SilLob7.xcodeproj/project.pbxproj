@@ -22,6 +22,7 @@
 		8A6041F5238F61AC001A660E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6041F3238F61AC001A660E /* LaunchScreen.storyboard */; };
 		8A604200238F61AD001A660E /* SilLob7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6041FF238F61AD001A660E /* SilLob7Tests.swift */; };
 		8A60420B238F61AD001A660E /* SilLob7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60420A238F61AD001A660E /* SilLob7UITests.swift */; };
+		8ABDCF162394C2A6005818D3 /* DisplayScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABDCF152394C2A6005818D3 /* DisplayScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,7 +101,7 @@
 		8A5860D2239368050029FD7D /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
 		8A5860D4239369420029FD7D /* OtherLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherLoginViewController.swift; sourceTree = "<group>"; };
 		8A5860D6239378180029FD7D /* tempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempViewController.swift; sourceTree = "<group>"; };
-		8A5860D8239379460029FD7D /* SilLob7 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SilLob7; sourceTree = "<group>"; };
+		8A5860D8239379460029FD7D /* SilLob7 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SilLob7; sourceTree = "<group>"; };
 		8A5860DA239379540029FD7D /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "SilLob7/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		8A6041E5238F61AB001A660E /* SilLob7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilLob7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6041E8238F61AB001A660E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +117,7 @@
 		8A604206238F61AD001A660E /* SilLob7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilLob7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A60420A238F61AD001A660E /* SilLob7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilLob7UITests.swift; sourceTree = "<group>"; };
 		8A60420C238F61AD001A660E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ABDCF152394C2A6005818D3 /* DisplayScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayScoreViewController.swift; sourceTree = "<group>"; };
 		A9C8879FDFD5D4CF9BDA45A4 /* Pods_SilLob7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilLob7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5110DC4FDC6ED4CBCB3EC4 /* Pods_SilLob7_SilLob7UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilLob7_SilLob7UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10B1FD43306422B09BFE2E9 /* Pods-SilLob7Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilLob7Tests.debug.xcconfig"; path = "Target Support Files/Pods-SilLob7Tests/Pods-SilLob7Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				8A5860D2239368050029FD7D /* ThirdPageViewController.swift */,
 				8A5860D4239369420029FD7D /* OtherLoginViewController.swift */,
 				8A5860D6239378180029FD7D /* tempViewController.swift */,
+				8ABDCF152394C2A6005818D3 /* DisplayScoreViewController.swift */,
 			);
 			path = SilLob7;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ABDCF162394C2A6005818D3 /* DisplayScoreViewController.swift in Sources */,
 				8A6041ED238F61AB001A660E /* ViewController.swift in Sources */,
 				8A5860D12393673C0029FD7D /* SecondPageViewController.swift in Sources */,
 				8A5860D7239378180029FD7D /* tempViewController.swift in Sources */,
