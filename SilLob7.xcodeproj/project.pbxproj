@@ -729,12 +729,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SN8JF239DY;
+				DEVELOPMENT_TEAM = Q4FN4PF4VL;
 				INFOPLIST_FILE = SilLob7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = pyprojects.SilLob7;
 				PRODUCT_NAME = 3HungryChinese;
 				SWIFT_VERSION = 5.0;
@@ -748,12 +749,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SN8JF239DY;
+				DEVELOPMENT_TEAM = Q4FN4PF4VL;
 				INFOPLIST_FILE = SilLob7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = pyprojects.SilLob7;
 				PRODUCT_NAME = 3HungryChinese;
 				SWIFT_VERSION = 5.0;

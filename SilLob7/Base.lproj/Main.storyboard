@@ -10,7 +10,7 @@
         <!--Other Login View Controller-->
         <scene sceneID="wWq-ms-vNt">
             <objects>
-                <viewController id="UgJ-fd-ghJ" customClass="OtherLoginViewController" customModule="SilLob7" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UgJ-fd-ghJ" customClass="OtherLoginViewController" customModule="_HungryChinese" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TiO-WC-U7b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SilLob7" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_HungryChinese" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,7 +164,7 @@
         <!--Second Page View Controller-->
         <scene sceneID="PVo-YV-joG">
             <objects>
-                <viewController id="5UG-vg-e6U" customClass="SecondPageViewController" customModule="SilLob7" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5UG-vg-e6U" customClass="SecondPageViewController" customModule="_HungryChinese" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="luF-zK-d9f">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -340,7 +340,7 @@
         <!--Third Page View Controller-->
         <scene sceneID="BWm-gc-kc5">
             <objects>
-                <viewController id="UXA-ca-def" customClass="ThirdPageViewController" customModule="SilLob7" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UXA-ca-def" customClass="ThirdPageViewController" customModule="_HungryChinese" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a5S-YC-fUx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -512,7 +512,7 @@
         <!--Display Score View Controller-->
         <scene sceneID="LVe-WV-k3W">
             <objects>
-                <viewController id="Bzr-JT-B4O" customClass="DisplayScoreViewController" customModule="SilLob7" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Bzr-JT-B4O" customClass="DisplayScoreViewController" customModule="_HungryChinese" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OEe-u5-FoK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -542,8 +542,8 @@
                                     <action selector="backClicked:" destination="Bzr-JT-B4O" eventType="touchUpInside" id="trU-3q-qST"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or You Can" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDg-44-1H7">
-                                <rect key="frame" x="153" y="580" width="108" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or You May" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDg-44-1H7">
+                                <rect key="frame" x="153" y="580" width="110" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -600,7 +600,7 @@
         <image name="text.bubble" catalog="system" width="64" height="54"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oFl-gJ-NoI"/>
+        <segue reference="cSu-SM-W0n"/>
         <segue reference="xSr-us-2u9"/>
     </inferredMetricsTieBreakers>
 </document>
