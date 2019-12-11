@@ -2,5 +2,5 @@
 
 
 <p align="center">
-  <img width="900" height="1600" src="/app2.jpg">
+  <img width="450" height="800" src="/app2.jpg">
 </p>
